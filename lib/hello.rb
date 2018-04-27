@@ -1,6 +1,9 @@
 def hello_t(array)
-  puts "#{array}"
-  
+  i = 0
+  while i < array.length
+    puts "#{array}"
+    i += 1
+  end
 end
 
 # call your method here!
